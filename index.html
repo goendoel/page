@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Istiqlal Profiles</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header id="header">
+		<a href="#" class="logo">ISTIQLAL</a>
+		<ul>
+			<li><a href="#home" class="active" onclick="toggle()">Home</a></li>
+			<li><a href="#profile" onclick="toggle()">Profile</a></li>
+			<li><a href="#artikel" onclick="toggle()">Artikel</a></li>
+		</ul>
+		<div class="toggle" onclick="toggle()"></div>
+	</header>
+	<section id="home">
+		<div>
+			<h2>saya! Muhammad Istiqlal</h2> <br>
+			<p align="justify">saya merupakan siswa di Sekolah Menengah Kejuruan Negeri 1 Kota Kediri <br> pada program keahlian Teknik Komputer dan Jaringan</p> 
+			<a href="http://iqlal.me">Main Site</a>
+		</div>
+		<img src="wajahku.png">
+	</section>
+	<section id="profile">
+		<div>
+			<h2>Profiles</h2> <br>
+			<pre>berikut merupakan daftar biografi singkat saya :
+Nama 			: Muhammad Istiqlal 
+Tanggal Lahir 	: Kediri, 17 Agustus 2003 
+Alamat			: Jl. Manila No.14 Kota Kediri 64133 
+No. HP			: 0822 5794 2003 
+E-Mail			: iqlal@tuta.io
+Hobi			: Olahraga dan IT
+</pre>
+		</div>
+	</section>
+	<section id="artikel">
+		<div>
+			<h2>Artikel tentang UI/UX</h2> <br>
+			<p align="justify">
+				Dalam sebuah desain ada dua hal yang harus dipenuhi agar membuat desain kita lebih baik, yaitu estetika dan fungsionalitas. Seorang UI/UX Design tidak boleh mengesampingkan hal tersebut. Dua hal tersebut bisa kita jadikan makna dari UI/UX Design itu sendiri, dimana UI Design merupakan desain yang lebih menonjolkan estetika dan UX Design yang lebih menonjolkan fungsionalitas desain. UI/UX Designer adalah sebutan untuk orang-orang yang menekuni bidang tersebut. Mereka bertanggung jawab atas desain tampilan interface, baik desktop, mobile maupun smartwach. <br>
+				UX Design merupakan singkatan dari User Experience Design, kalau diartikan secara pengertian kata, makna UX Design adalah ilmu yang mempelajari tentang pengalaman seorang pengguna. User dan data merupakan peran penting dari tugas seorang UX Designer, yups seorang UX Designer harus research langsung ke user untuk mencari data masalah apa yang sedang dihadapi oleh user dan mencari solusi dari masalah tersebut. <br>
+				Apakah UI Design beda dengan UX Design? Sejatinya UI Design merupakan part of UX Design. Mereka satu kesatuan yang tidak bisa dipisahkan, dimana UI Design yang bagus berawal dari research seorang UX Design. dan UX Design yang bagus percuma kalau tidak dieksekusi oleh UI Design yang handal.<br>
+			</p>
+		</div>
+	</section>
+	<footer id="footer">
+		<p align="center"> Copyright @ 2020 </p>
+		<p align="center"> Create by Istiqlal </p>
+	</footer>
+	<script type="text/javascript">
+		function toggle(){
+			var header = document.getElementById("header")
+			header.classList.toggle('active')
+		} 
+	</script>
+</body>
+</html>
